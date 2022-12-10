@@ -14,5 +14,5 @@ void FindXY(double x, double b2, double b1, double k1, double k2)
 {
     x = (b2 - b1) / (k1 - k2);
     y = k1 * x + b1;
-    Console.WriteLine($"Координаты точек пересечения - [{x};{y}]");
+    Console.WriteLine($"Координаты точки пересечения - [{x};{y}]");
 }
